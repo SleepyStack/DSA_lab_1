@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
     int elementCount;
     printf("How many elements will be in the array: ");
     scanf("%d",&elementCount);
@@ -14,4 +14,5 @@ void main() {
         arraySum += myArray[i];
     }
     printf("The Sum is: %d",arraySum);
+    return 0;
 }
