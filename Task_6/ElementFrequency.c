@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
     int elementCount;
     printf("How many elements will be in the array: ");
     scanf("%d",&elementCount);
@@ -19,4 +19,5 @@ void main() {
         }
     }
     printf("Occurance of %d in given array is: %d",checkElement,elementCounter);
+    return 0;
 }
