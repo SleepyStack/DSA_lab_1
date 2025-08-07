@@ -1,1 +1,46 @@
-.vscode/tasks.json
+# Ignore build artifacts
+*.exe
+*.o
+*.out
+*.obj
+*.a
+*.so
+*.dll
+
+# Ignore VSCode settings
+.vscode/
+*.code-workspace
+
+# Ignore dependency and config files
+*.log
+
+# Ignore JSON files
+*.json
+
+# Ignore core dumps
+core
+*.core
+*.stackdump
+
+# Ignore temporary files
+*~
+*.swp
+.DS_Store
+
+# Ignore backups and OS files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignore CMake and Make build folders
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
